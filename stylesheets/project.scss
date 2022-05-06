@@ -1,0 +1,43 @@
+.project-cont{
+    margin-top: 10%;
+    margin-bottom: 10% ;
+
+
+
+}
+
+
+.cards-col{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.2em;
+  .card{
+      margin-right: 1em;
+      margin-top: 1em;
+  }
+
+  .card-text{
+    //   margin-top: 2em;
+  }
+}
+.card2 img{
+    margin-bottom: 5em;
+}
+
+.card img{
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 100px) and (max-width: 780px) {
+
+    .cards-col{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items:center
+        
+    }
+
+    
+
+}

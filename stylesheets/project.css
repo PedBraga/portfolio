@@ -1,0 +1,47 @@
+.project-cont {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.cards-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 1.2em;
+}
+
+.cards-col .card {
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.card2 img {
+  margin-bottom: 5em;
+}
+
+.card img {
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 100px) and (max-width: 780px) {
+  .cards-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=project.css.map */
